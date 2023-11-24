@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+   background: linear-gradient( #eae7ec, #d1d0d0);
+}
+
+.contenedor div i:hover, .contenedor div a:hover {
+  color: rgb(74, 73, 73);
+  transform: scale(1.2);
+  font-size: 20px;
+}
+.margen {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 100%;
+  height: 60px;
+  background-color: white;
+  position: fixed;
+  top: 0px;
+  align-items: center;
+}
+
+.margen div i {
+  z-index: 10;
+}
+
+.margen img {
+  height: 70px;
+  margin-left: 10px;
+}
+
+.info {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+
+.info h2 {
+  margin-top: 65px;
+}
+
+.info p {
+  text-align: center;
+}
+
+.margen p {
+  margin: 10px;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+}
+
+.contenedor div i {
+  z-index: 10;
+}
+
+.contenedor i{
+	color: black;
+}
+
+.userIcon-and-close {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.userIcon-and-close i {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 2px;
+  font-size: 30px;
+}
+
+.mas-opciones {
+  background: linear-gradient( #eae7ec, #d1d0d0);
+  position: fixed;
+  top: 10px;
+  border-radius: 20px;
+  width: 30%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: 1px black; solid;
+  right: 10px;
+}
+
+.mas-opciones p {
+  margin: 10px;
+  font-weight: 600;
+  color: black;
+}
+
+.mas-opciones a{
+  color: black;
+}
+
+.mas-opciones a:hover{
+  color:rgb(74, 73, 73)
+}
+
+
+.mas-opciones p i {
+  margin: 10px 10px;
+}
+
+.mas-opciones p > i {
+  margin-right: 10px;
+  color: black;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 700px) {
+	.contenedor span {
+		display: none;
+	}
+
+	.mas-opciones {
+		width: 60%;
+	}
+}
